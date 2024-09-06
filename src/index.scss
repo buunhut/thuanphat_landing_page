@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+
+    #root {
+        #topMenu {
+            color: white;
+            background-color: rgb(50, 50, 50);
+            height: 60px;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            right: 0;
+            left: 0;
+
+            .menuBar {
+
+                i {
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: all .3s;
+
+                    &:hover {
+                        color: orangered;
+
+                    }
+
+                }
+            }
+
+            h2 {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    transition: all .3s;
+
+                    &:hover {
+                        color: orangered;
+
+                    }
+
+
+                }
+            }
+
+        }
+
+        .megaMenu {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: orangered;
+            z-index: 2000;
+            overflow: hidden;
+            transition: all .3s;
+
+            ul {
+                padding: 30px;
+
+                li {
+                    list-style: none;
+                    padding: 10px 0;
+
+
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 20px;
+                        transition: all .3s;
+
+                        &:hover {
+                            color: black;
+                            font-weight: bold;
+                            font-size: 22px;
+
+                        }
+
+
+
+                    }
+                }
+            }
+
+        }
+
+        #container {
+            margin-top: 60px;
+            // background-color: red;
+
+            .content {
+                width: 1100px;
+                margin: 0 auto;
+                padding: 30px 10px;
+                // background-color: aqua;
+            }
+        }
+
+        footer {
+            .content {
+                display: flex;
+                justify-content: space-between;
+
+                .menu {
+                    padding: 30px;
+
+                    ul {
+                        li {
+                            list-style: none;
+                            padding: 5px;
+
+                            a {
+                                text-decoration: none;
+                                // color: orangered;
+                            }
+                        }
+                    }
+                }
+
+                .address {
+                    padding: 30px;
+
+                    ul {
+                        li {
+                            list-style: none;
+                            padding: 5px;
+
+                            a {
+                                text-decoration: none;
+                                color: orangered;
+                            }
+                        }
+                    }
+                }
+            }
+
+            p {
+                text-align: center;
+                background-color: rgb(50, 50, 50);
+                color: silver;
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+
+
+
+    }
+}
+
+@media screen and (max-width: 687px) {
+    body {
+        #root {
+            #container {
+                .content {
+                    width: 100%;
+                }
+            }
+
+            footer {
+                .content {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column-reverse;
+
+                    .menu {
+                        padding: 10px;
+
+
+                    }
+
+                    .address {
+                        padding: 10px;
+
+                    }
+                }
+
+
+            }
+
+        }
+    }
+
+}
