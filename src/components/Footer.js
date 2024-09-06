@@ -26,9 +26,7 @@ const Footer = () => {
             </li>
             <li>
               <i className="fa-solid fa-globe"></i>
-              <a href="https://congtythuanphat.com">
-                https://congtythuanphat.con
-              </a>
+              <a href="https://congtythuanphat.com">congtythuanphat.con</a>
             </li>
           </ul>
         </div>
