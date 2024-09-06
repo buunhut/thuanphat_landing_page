@@ -5,6 +5,11 @@ const MemuDetail = ({ handleClickMenu }) => {
   return (
     <ul>
       <li>
+        <NavLink to={"/"} onClick={handleClickMenu}>
+          Home
+        </NavLink>
+      </li>
+      <li>
         <NavLink to={"products"} onClick={handleClickMenu}>
           Products
         </NavLink>

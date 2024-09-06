@@ -6,8 +6,14 @@ const TopMenu = () => {
   const [megaMenu, setMegaMenu] = useState(false);
   const handleClickMenu = (e) => {
     setMegaMenu(!megaMenu);
+    if (!megaMenu) {
+      // Lock scroll when menu is open
+      document.body.style.overflow = "hidden";
+    } else {
+      // Unlock scroll when menu is closed
+      document.body.style.overflow = "";
+    }
   };
-  const navigate = useNavigate();
   return (
     <div>
       <div id="topMenu">
