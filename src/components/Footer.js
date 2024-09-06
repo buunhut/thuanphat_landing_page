@@ -36,7 +36,7 @@ const Footer = () => {
           <MemuDetail />
         </div>
       </div>
-      <p>@2024 - Code by zero</p>
+      <p>© 2014 THUAN PHAT Company, All rights reserved.</p>
     </footer>
   );
 };
