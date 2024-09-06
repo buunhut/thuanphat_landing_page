@@ -135,6 +135,13 @@ body {
                         line-height: 30px;
                         text-align: justify;
                     }
+
+                    iframe {
+                        border: none;
+                        // margin: 20px auto;
+                        width: 100%;
+                        height: 600px;
+                    }
                 }
 
             }
@@ -241,10 +248,14 @@ body {
                 .content {
                     display: flex;
                     justify-content: space-between;
-                    flex-direction: column-reverse;
+                    flex-direction: column;
 
                     .menu {
                         padding: 10px;
+
+                        ul {
+                            margin-left: 20px;
+                        }
 
 
                     }
