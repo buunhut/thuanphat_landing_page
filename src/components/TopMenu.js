@@ -30,7 +30,8 @@ const TopMenu = () => {
       </div>
       <div
         className="megaMenu"
-        style={{ height: megaMenu ? "calc(100vh)" : 0 }}
+        style={{ height: megaMenu ? "calc(100vh - 60px)" : 0 }}
+        onClick={handleClickMenu}
       >
         <MemuDetail handleClickMenu={handleClickMenu} close={true} />
       </div>
