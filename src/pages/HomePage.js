@@ -10,17 +10,18 @@ const HomePage = () => {
             <i className="fa-solid fa-users-gear"></i> About Us
           </h1>
           <p>
-            Our company specializes in trading and technology, offering
-            high-quality products such as computers, components, network
-            equipment, surveillance cameras, and memory cards..., In addition,
-            we provide software services, including website design, custom
-            software development, and technology consulting. With a team of
-            experienced and dedicated professionals, we are committed to
+            Since 2014, our company specializes in trading and technology,
+            offering high-quality products such as computers, components,
+            network equipment, surveillance cameras, and memory cards..., In
+            addition, we provide software services, including website design,
+            custom software development, and technology consulting. With a team
+            of experienced and dedicated professionals, we are committed to
             delivering optimal solutions that meet the technological needs of
             our customers in the digital age.
           </p>
         </div>
-
+      </div>
+      <div className="content">
         <div className="contentItem">
           <h1>
             <i className="fa-solid fa-screwdriver-wrench"></i> Services
@@ -55,6 +56,8 @@ const HomePage = () => {
             fully meet the technological and growth needs of our customers.
           </p>
         </div>
+      </div>
+      <div className="content">
         <div className="contentItem">
           <h1>
             <i className="fa-solid fa-handshake-simple"></i> Partners
