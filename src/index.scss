@@ -234,6 +234,7 @@ body {
                             // list-style: none;
                             padding: 5px;
                             color: white;
+                            font-size: 18px;
 
 
                             a {
@@ -321,12 +322,17 @@ body {
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
+                    gap: 30px;
 
                     .menu {
                         padding: 10px;
 
                         ul {
                             margin-left: 20px;
+
+                            li {
+                                font-size: 18px;
+                            }
                         }
 
 
