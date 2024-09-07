@@ -17,8 +17,8 @@ body {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            // position: fixed;
-            z-index: 1000;
+            position: fixed;
+            z-index: 2000;
             top: 0;
             right: 0;
             left: 0;
@@ -61,11 +61,12 @@ body {
             right: 0;
             bottom: 0;
             background-color: orangered;
-            z-index: 2000;
+            z-index: 1000;
             overflow: hidden;
             transition: all .3s;
 
             ul {
+                margin-top: 60px;
                 padding: 30px;
 
                 li {
