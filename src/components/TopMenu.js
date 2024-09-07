@@ -9,9 +9,11 @@ const TopMenu = () => {
     if (!megaMenu) {
       // Lock scroll when menu is open
       document.body.style.overflow = "hidden";
+      window.scrollTo(0, 60);
     } else {
       // Unlock scroll when menu is closed
       document.body.style.overflow = "";
+      window.scrollTo(0, 0);
     }
   };
   return (

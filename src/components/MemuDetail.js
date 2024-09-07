@@ -4,12 +4,6 @@ import { NavLink } from "react-router-dom";
 const MemuDetail = ({ handleClickMenu, close }) => {
   return (
     <ul>
-      {/* {close ? (
-        <li className="close" onClick={handleClickMenu}>
-          <i className="fa-solid fa-xmark"></i>
-        </li>
-      ) : null} */}
-
       <li>
         <NavLink to={"/"} onClick={handleClickMenu}>
           Home
