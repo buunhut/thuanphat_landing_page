@@ -20,6 +20,11 @@ const MemuDetail = ({ handleClickMenu, close }) => {
         </NavLink>
       </li>
       <li>
+        <NavLink to={"events"} onClick={handleClickMenu}>
+          Events
+        </NavLink>
+      </li>
+      <li>
         <NavLink to={"contact"} onClick={handleClickMenu}>
           Contact
         </NavLink>

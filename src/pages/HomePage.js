@@ -55,6 +55,19 @@ const HomePage = () => {
             fully meet the technological and growth needs of our customers.
           </p>
         </div>
+        <div className="contentItem">
+          <h1>
+            <i className="fa-solid fa-handshake-simple"></i> Partners
+          </h1>
+          <p>
+            We are looking for dynamic partners and collaborators to join us in
+            developing a new project. If you are passionate about commerce and
+            software development and eager to work in a creative, high-potential
+            environment, we would love to hear from you. This is a great
+            opportunity to collaborate and achieve groundbreaking success
+            together.
+          </p>
+        </div>
       </div>
     </div>
   );

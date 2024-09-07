@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServicesPages = () => {
+const EventsPage = () => {
   return (
     <div id="container">
       <div className="content">
@@ -10,4 +10,4 @@ const ServicesPages = () => {
   );
 };
 
-export default ServicesPages;
+export default EventsPage;

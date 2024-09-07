@@ -13,11 +13,11 @@ const Footer = () => {
             </li>
             <li>
               <i className="fa-solid fa-location-dot"></i>
-              115/26 Phan Dang Luu, 7 Ward, Phu Nhuan Dictrict, Ho Chi Minh
+              115/26 Phan Dang Luu, 7 Ward, Phu Nhuan District, Ho Chi Minh
               City, VietNam
             </li>
             <li>
-              <i className="fa-solid fa-file-lines"></i>
+              <i className="fa-solid fa-file-circle-exclamation"></i>
               0312617510
             </li>
             <li>
