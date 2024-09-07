@@ -17,16 +17,24 @@ const Footer = () => {
               City, VietNam
             </li>
             <li>
+              <i className="fa-solid fa-file-lines"></i>
+              0312617510
+            </li>
+            <li>
+              <i className="fa-solid fa-building-columns"></i>
+              172 580 999 - Asia Commercial Joint Stock Bank - Binh Tay Branch
+            </li>
+            <li>
+              <i className="fa-solid fa-globe"></i>
+              <a href="https://congtythuanphat.com">congtythuanphat.con</a>
+            </li>
+            <li>
               <i className="fa-solid fa-phone"></i>
               <a href="tel:+84909240886">0909 240 886</a>
             </li>
             <li>
               <i className="fa-solid fa-envelope"></i>
               <a href="mailto:nhut.nta@gmail.com">nhut.nta@gmail.com</a>
-            </li>
-            <li>
-              <i className="fa-solid fa-globe"></i>
-              <a href="https://congtythuanphat.com">congtythuanphat.con</a>
             </li>
           </ul>
         </div>

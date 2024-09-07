@@ -27,24 +27,24 @@ const HomePage = () => {
           </h1>
           <ul>
             <li>
-              <b>Commerce</b>: We offer a wide range of high-quality technology
+              <b>Commerce:</b> We offer a wide range of high-quality technology
               products, including computers, electronic components, network
               equipment, surveillance cameras, and memory cards. All products
               are carefully selected from reputable suppliers to meet the needs
               of both individual and business customers.
             </li>
             <li>
-              <b>Website Design</b>: We design professional websites that are
+              <b>Website Design:</b> We design professional websites that are
               SEO-friendly and optimized for user experience, helping your
               business establish a strong online presence.
             </li>
             <li>
-              <b>Software Development</b>: We provide customized software
+              <b>Software Development:</b> We provide customized software
               solutions tailored to the specific needs of your business, ranging
               from enterprise management systems to mobile applications.
             </li>
             <li>
-              <b>Technology Consulting</b>: With a team of experienced experts,
+              <b>Technology Consulting:</b> With a team of experienced experts,
               we offer effective technology consulting services, helping
               businesses streamline processes and improve operational
               efficiency.
