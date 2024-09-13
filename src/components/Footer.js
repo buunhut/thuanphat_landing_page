@@ -1,7 +1,9 @@
 import React from "react";
 import MemuDetail from "./MemuDetail";
+import { useSelector } from "react-redux";
 
 const Footer = () => {
+  const { info } = useSelector((state) => state.dataSlice);
   return (
     <footer>
       <div className="content">
@@ -9,32 +11,31 @@ const Footer = () => {
           <ul>
             <li>
               <i className="fa-solid fa-house"></i>
-              <b>THUAN PHAT TECHNOLOGY TRADING COMPANY LIMITED</b>
+              <b>{info?.company}</b>
             </li>
             <li>
               <i className="fa-solid fa-location-dot"></i>
-              115/26 Phan Dang Luu, 7 Ward, Phu Nhuan District, Ho Chi Minh
-              City, VietNam
+              {info?.address}
             </li>
             <li>
               <i className="fa-solid fa-file-circle-exclamation"></i>
-              0312617510
+              {info?.tax}
             </li>
             <li>
               <i className="fa-solid fa-building-columns"></i>
-              172 580 999 - Asia Commercial Joint Stock Bank - Binh Tay Branch
+              {info?.bankAccount}
             </li>
             <li>
               <i className="fa-solid fa-globe"></i>
-              <a href="https://congtythuanphat.com">congtythuanphat.con</a>
+              <a href={`https://${info?.website}`}>{info?.website}</a>
             </li>
             <li>
               <i className="fa-solid fa-phone"></i>
-              <a href="tel:+84909240886">0909 240 886</a>
+              <a href={`tel:+84${info?.phone}`}>0{info?.phone}</a>
             </li>
             <li>
               <i className="fa-solid fa-envelope"></i>
-              <a href="mailto:nhut.nta@gmail.com">nhut.nta@gmail.com</a>
+              <a href={`mailto:${info?.email}`}>{info?.email}</a>
             </li>
           </ul>
         </div>
@@ -42,7 +43,7 @@ const Footer = () => {
           <MemuDetail />
         </div>
       </div>
-      <p>© 2014 THUAN PHAT Company, All rights reserved.</p>
+      <p>{info?.belong}</p>
     </footer>
   );
 };
