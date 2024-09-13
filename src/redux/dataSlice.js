@@ -23,6 +23,14 @@ const initialState = {
     "speaker",
     "software",
   ],
+  service: [
+    "repair",
+    "consulting",
+    "design",
+    "construction",
+    "rental",
+    "support",
+  ],
 };
 
 const dataSlice = createSlice({

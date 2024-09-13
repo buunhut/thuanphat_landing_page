@@ -9,6 +9,7 @@ const ProductsPage = () => {
     <div id="container">
       <div className="content">
         <div className="contentItem">
+          <h1>Prodcuts</h1>
           <div className="contentItemWrap">
             {product?.map((item, index) => {
               return <ProductItem key={index} item={item} />;
