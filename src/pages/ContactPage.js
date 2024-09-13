@@ -23,7 +23,7 @@ const ContactPage = () => {
             </div>
             <button type="button">
               {" "}
-              <i className="fa-solid fa-paper-plane"></i> Contact me now
+              <i className="fa-solid fa-paper-plane"></i> Contact me
             </button>
           </form>
         </div>

@@ -35,8 +35,8 @@ const HomePage = () => {
               of both individual and business customers.
             </li>
             <li>
-              <b>Website Design:</b> We design professional websites that are
-              SEO-friendly and optimized for user experience, helping your
+              <b>Website Development:</b> We design professional websites that
+              are SEO-friendly and optimized for user experience, helping your
               business establish a strong online presence.
             </li>
             <li>
