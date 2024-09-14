@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 const HomePage = () => {
+
   return (
     <div id="container">
       <div className="banner"></div>

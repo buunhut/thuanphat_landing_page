@@ -1,18 +1,11 @@
 import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import MemuDetail from "./MemuDetail";
 
 const TopMenu = () => {
   const [megaMenu, setMegaMenu] = useState(false);
   const handleClickMenu = (e) => {
     setMegaMenu(!megaMenu);
-    if (!megaMenu) {
-      // Lock scroll when menu is open
-      document.body.style.overflow = "hidden";
-    } else {
-      // Unlock scroll when menu is closed
-      document.body.style.overflow = "";
-    }
   };
   return (
     <div>
@@ -33,7 +26,7 @@ const TopMenu = () => {
         style={{ height: megaMenu ? "calc(100vh - 60px)" : 0 }}
         onClick={handleClickMenu}
       >
-        <MemuDetail handleClickMenu={handleClickMenu} close={true} />
+        <MemuDetail />
       </div>
     </div>
   );
