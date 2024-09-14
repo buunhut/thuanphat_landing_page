@@ -27,8 +27,11 @@ const initialState = {
     "repair",
     "consulting",
     "design",
+    "printing",
+    "advertising",
     "construction",
     "rental",
+    "traning",
     "support",
   ],
   event: [
