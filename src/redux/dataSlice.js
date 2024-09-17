@@ -36,6 +36,13 @@ const initialState = {
   ],
   event: [
     {
+      date: "2024-01-10",
+      title: "Kỷ niện 10 năm thành lập",
+      content:
+        "Kỷ niện 10 năm thành lập công ty. Hoạt động trong lĩnh vực CNTT, CCTV...,",
+      img: [],
+    },
+    {
       date: "2024-08-25",
       title: "Back to school",
       content:
@@ -53,7 +60,7 @@ const initialState = {
       date: "2024-09-14",
       title: "Trung Thu festival",
       content:
-        "Lễ hội trung thu hàng năm được tổ chức cho các em vui chơi, tuy nhiên hôm nay trời mưa to gió lớn kèm theo bảp táp phong ba, nên huỷ",
+        "Lễ hội trung thu hàng năm được tổ chức cho các em vui chơi, tuy nhiên hôm nay trời mưa to gió lớn kèm theo bảo táp phong ba, nên huỷ",
       img: [],
     },
   ],
