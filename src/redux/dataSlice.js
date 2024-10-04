@@ -71,6 +71,103 @@ const initialState = {
       img: [],
     },
   ],
+  test: [
+    {
+      exam: 1,
+      question: [
+        {
+          qId: 1,
+          ask: "1 + 1 = ?",
+          suggest: [
+            { id: 1, content: "2" },
+            { id: 2, content: "5" },
+            { id: 3, content: "4" },
+          ],
+          correct: 1,
+        },
+        {
+          qId: 2,
+          ask: "2 * 2 = ?",
+          suggest: [
+            { id: 1, content: "2" },
+            { id: 2, content: "8" },
+            { id: 3, content: "4" },
+          ],
+          correct: 3,
+        },
+      ],
+    },
+    {
+      exam: 2,
+      question: [
+        {
+          qId: 1,
+          ask: "10 / 2 = ?",
+          suggest: [
+            { id: 1, content: "2" },
+            { id: 2, content: "5" },
+            { id: 3, content: "4" },
+          ],
+          correct: 2,
+        },
+        {
+          qId: 2,
+          ask: "2 + 4 = ?",
+          suggest: [
+            { id: 1, content: "6" },
+            { id: 2, content: "8" },
+            { id: 3, content: "4" },
+          ],
+          correct: 1,
+        },
+      ],
+    },
+    {
+      exam: 3,
+      question: [
+        {
+          qId: 1,
+          ask: "Bửu Đoàn mượn của anh Nhựt 100 Eur, chưa trả đồng nào. Hỏi Bửu Đoàn còn nợ Bửu Nhựt bao nhiêu Eur?",
+          suggest: [
+            { id: 1, content: "120 Eur" },
+            { id: 2, content: "100 Eur" },
+            { id: 3, content: "50 Eur" },
+          ],
+          correct: 2,
+        },
+        {
+          qId: 2,
+          ask: "Bửu Đoàn có chiếc Flycam bán được 150 Eur, Bửu Đoàn bán chiếc Flycam đó và trả tiền cho anh Nhựt, thì hỏi Bửu Đoàn còn lại bao nhiêu Eur?",
+          suggest: [
+            { id: 1, content: "50 Eur" },
+            { id: 2, content: "60 Eur" },
+            { id: 3, content: "40 Eur" },
+          ],
+          correct: 1,
+        },
+        {
+          qId: 3,
+          ask: "Một con bò có 4 cái chân, vậy hỏi bạn chứ 8 cái chân thì có bao nhiêu con bò?",
+          suggest: [
+            { id: 1, content: "2 con" },
+            { id: 2, content: "1 con" },
+            { id: 3, content: "3 con" },
+          ],
+          correct: 1,
+        },
+        {
+          qId: 4,
+          ask: "Gà cộng với lợn có chẵn 10 con, trong đó có 4 chân lợn thì hỏi có bao nhiêu chân gà?",
+          suggest: [
+            { id: 1, content: "2" },
+            { id: 2, content: "9" },
+            { id: 3, content: "18" },
+          ],
+          correct: 3,
+        },
+      ],
+    },
+  ],
 };
 
 const dataSlice = createSlice({
