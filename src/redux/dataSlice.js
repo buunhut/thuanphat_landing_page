@@ -120,6 +120,16 @@ const initialState = {
           ],
           correct: 1,
         },
+        {
+          qId: 3,
+          ask: "12 - 5 = ?",
+          suggest: [
+            { id: 1, content: "10" },
+            { id: 2, content: "7" },
+            { id: 3, content: "2" },
+          ],
+          correct: 2,
+        },
       ],
     },
     {
@@ -127,7 +137,7 @@ const initialState = {
       question: [
         {
           qId: 1,
-          ask: "Bửu Đoàn mượn của anh Nhựt 100 Eur, chưa trả đồng nào. Hỏi Bửu Đoàn còn nợ Bửu Nhựt bao nhiêu Eur?",
+          ask: "Bửu Đoàn mượn của anh Nhựt 100 Eur, chưa trả đồng nào. Hỏi Bửu Đoàn còn nợ anh Nhựt bao nhiêu Eur?",
           suggest: [
             { id: 1, content: "120 Eur" },
             { id: 2, content: "100 Eur" },
