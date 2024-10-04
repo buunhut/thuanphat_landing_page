@@ -10,9 +10,15 @@ const EventsPage = () => {
         <div className="contentItem">
           <h1>Events</h1>
           <div>
-            {event?.map((item, index) => {
+            {/* {event?.map((item, index) => {
+              //cần sắp xếp theo thời gian
               return <EventItem item={item} key={index} />;
-            })}
+            })} */}
+            {event
+              ?.sort((a, b) => new Date(b.date) - new Date(a.date)) // Sắp xếp theo thời gian từ mới đến cũ
+              .map((item, index) => {
+                return <EventItem item={item} key={index} />;
+              })}
           </div>
         </div>
       </div>
