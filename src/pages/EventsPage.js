@@ -14,11 +14,12 @@ const EventsPage = () => {
               //cần sắp xếp theo thời gian
               return <EventItem item={item} key={index} />;
             })} */}
-            {event
-              ?.sort((a, b) => new Date(b.date) - new Date(a.date)) // Sắp xếp theo thời gian từ mới đến cũ
-              .map((item, index) => {
-                return <EventItem item={item} key={index} />;
-              })}
+            {event &&
+              [...event] // Tạo một bản sao mới của mảng
+                .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sắp xếp theo thời gian từ mới đến cũ
+                .map((item, index) => {
+                  return <EventItem item={item} key={index} />;
+                })}
           </div>
         </div>
       </div>
