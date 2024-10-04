@@ -46,21 +46,21 @@ const initialState = {
       date: "2024-08-25",
       title: "Back to school",
       content:
-        "Ngày tất cả các học sinh trên cả nước tựu trường, khai giảng năm học mới",
+        "Ngày tất cả các học sinh trên cả nước tựu trường, khai giảng năm học mới.",
       img: [],
     },
     {
       date: "2024-09-02",
       title: "Lễ Quốc Khánh Nước Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam",
       content:
-        "Mừng ngày giải phóng dân tộc và thống nhất đất nước ngày 09/09/1975",
+        "Mừng ngày giải phóng dân tộc và thống nhất đất nước ngày 09/09/1975.",
       img: [],
     },
     {
       date: "2024-09-14",
       title: "Trung Thu festival",
       content:
-        "Lễ hội trung thu hàng năm được tổ chức cho các em vui chơi, tuy nhiên hôm nay trời mưa to gió lớn kèm theo bảo táp phong ba, nên huỷ",
+        "Lễ hội trung thu hàng năm tổ chức cho các em vui chơi, tuy nhiên hôm nay do thời tiết xấu, trời mưa to gió lớn, nên huỷ.",
       img: [],
     },
   ],
