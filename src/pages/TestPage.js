@@ -57,7 +57,7 @@ const TestPage = () => {
       <div className="content">
         <div className="contentItem">
           <h1>Test page demo only</h1>
-          <div className="test">
+          <div className="test" style={{ marginTop: "10px" }}>
             <select name="" id="" onChange={handleChangeExam}>
               <option value="">Chọn đề</option>
               {test?.map((item, index) => {
@@ -132,9 +132,9 @@ const TestPage = () => {
             {question.length > 0 && (
               <div style={{ margin: "10px 0" }}>
                 {isSubmitted ? (
-                  <button onClick={handleReset}>Reset</button>
+                  <button onClick={handleReset}>Làm lại</button>
                 ) : (
-                  <button onClick={handleSubmit}>Submit</button>
+                  <button onClick={handleSubmit}>Xong</button>
                 )}
               </div>
             )}
