@@ -53,14 +53,21 @@ const initialState = {
       date: "2024-09-02",
       title: "Lễ Quốc Khánh Nước Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam",
       content:
-        "Mừng ngày giải phóng dân tộc và thống nhất đất nước ngày 09/09/1975.",
+        "Mừng ngày giải phóng dân tộc và thống nhất đất nước ngày 02/09/1975.",
       img: [],
     },
     {
       date: "2024-09-14",
       title: "Trung Thu festival",
       content:
-        "Lễ hội trung thu hàng năm tổ chức cho các em vui chơi, tuy nhiên hôm nay do thời tiết xấu, trời mưa to gió lớn, nên huỷ.",
+        "Lễ hội trung thu hàng năm tổ chức cho các em vui chơi, tuy nhiên năm nay do thời tiết xấu, trời mưa to gió lớn, nên huỷ.",
+      img: [],
+    },
+    {
+      date: "2024-10-04",
+      title: "Tìm kiếm cộng tác viên",
+      content:
+        "Chúng tôi đang tìm kiếm cộng tác viên trong lĩnh vực CNTT, Marketting...,",
       img: [],
     },
   ],
