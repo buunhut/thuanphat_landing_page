@@ -5,7 +5,7 @@ const initialState = {
   info: {
     company: "THUAN PHAT TECHNOLOGY TRADING COMPANY LIMITED",
     address:
-      "115/26 Phan Dang Luu Street, 7 Ward, Phu Nhuan District, Ho Chi Minh City, Vietnam",
+      "115/26 Phan Dang Luu Street, Cau Kieu Ward, Ho Chi Minh City, Vietnam",
     tax: "0312617510",
     bankAccount: "172 580 999 - Asia Commercial Bank - Binh Tay Branch",
     website: "congtythuanphat.com",
@@ -176,6 +176,43 @@ const initialState = {
           correct: 3,
         },
       ],
+    },
+  ],
+  country: [
+    {
+      id: 1,
+      name: "american",
+      vietnamese: "Mỹ",
+    },
+    {
+      id: 2,
+      name: "canada",
+      vietnamese: "Canada",
+    },
+    {
+      id: 3,
+      name: "germany",
+      vietnamese: "Đức",
+    },
+    {
+      id: 4,
+      name: "australia",
+      vietnamese: "Úc",
+    },
+    {
+      id: 5,
+      name: "korea",
+      vietnamese: "Hàn Quốc",
+    },
+    {
+      id: 6,
+      name: "japan",
+      vietnamese: "Nhật Bản",
+    },
+    {
+      id: 7,
+      name: "taiwan",
+      vietnamese: "Đài Loan",
     },
   ],
 };
